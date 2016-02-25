@@ -12,17 +12,17 @@ use std::process;
 const VERSION: Option<&'static str> = option_env!("CARGO_PKG_VERSION");
 
 const USAGE: &'static str = "
-galvanize
+galvanize_cli
 
 Usage:
-  galvanize FILE (top|tail)
-  galvanize FILE (top|tail) COUNT
-  galvanize FILE count
-  galvanize FILE get <key>
-  galvanize FILE get -e <key>
-  galvanize FILE all --yes-i-am-sure
-  galvanize (-h | --help)
-  galvanize --version
+  galvanize_cli FILE (top|tail)
+  galvanize_cli FILE (top|tail) COUNT
+  galvanize_cli FILE count
+  galvanize_cli FILE get <key>
+  galvanize_cli FILE get -e <key>
+  galvanize_cli FILE all --yes-i-am-sure
+  galvanize_cli (-h | --help)
+  galvanize_cli --version
 
 Options:
   -h --help      Show this screen.
