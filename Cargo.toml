@@ -1,0 +1,21 @@
+[package]
+name = "galvanize_cli"
+version = "0.0.1"
+authors = ["Esteban Küber <esteban@kuber.com.ar>"]
+description = "Pure Rust CDB CLI tool."
+repository = "https://github.com/estebank/galvanize_cli"
+readme = "README.md"
+license = "MIT"
+exclude = [
+  '*.cdb',
+  'tests/*.cdb',
+]
+
+[[bin]]
+name = "galvanize_cli"
+path = "src/main.rs"
+
+[dependencies]
+docopt = "0.6"
+galvanize = "0.0.1"
+rustc-serialize = "0.3"
